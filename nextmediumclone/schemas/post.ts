@@ -8,6 +8,7 @@ export default defineType({
     defineField({
       name: 'title',
       title: 'Title',
+      description: 'keep the title short',
       type: 'string',
     }),
     defineField({
@@ -18,6 +19,11 @@ export default defineType({
         source: 'title',
         maxLength: 96,
       },
+    }),
+    defineField({
+      name: 'description',
+      title: 'Description',
+      type: 'string',
     }),
     defineField({
       name: 'author',
