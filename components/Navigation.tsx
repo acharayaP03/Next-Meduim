@@ -3,7 +3,7 @@ import Link  from 'next/link';
 
 const Navigation = () => {
     return(
-        <nav className="flex items-center p-5 max-w-7xl mx-auto">
+        <nav className="flex items-center p-5 max-w-7xl mx-auto border-b">
             <div className="flex items-center space-x-5 flex-1">
                 <Link href="/">
                     <img src="/logo.svg" alt="" className="w-44 cursor-pointer fill-black p-4"/>
